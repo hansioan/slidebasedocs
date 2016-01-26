@@ -14,7 +14,7 @@ Similar to promoters, for each enhancer we have a measure of expression  within 
 
 In Slidebase we have simplified the samples by aggregating anatomically/functionally similar cells and tissues into "facets", as defined in [Andersson et al](http://www.nature.com/nature/journal/v507/n7493/full/nature12787.html). Examples of cell facets are: neurons, T cells or monocytes; example of tissue facets are: brain, liver or heart tissue.
 
-If you use this expression data, you should cite:
-
-+ The FANTOM 5 Consortium and the RIKEN PMI and CLST (DGT), Nature 507, 462–470, doi:10.1038/nature13182  
-+ Andersson et al, Nature 507, 455–461, doi:10.1038/nature12787
+!!! <i class="fa fa-exclamation-circle"></i>
+!!! **If you use this expression data, you should cite:**   
+!!! - The FANTOM 5 Consortium and the RIKEN PMI and CLST (DGT), Nature 507, 462–470, **doi:10.1038/nature13182**
+!!! - Andersson et al, Nature 507, 455–461, **doi:10.1038/nature12787**

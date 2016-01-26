@@ -14,20 +14,20 @@ By default, all samples sliders are set to the 0 - 100 range (at least 0% and at
 
 
 
->>>>> In each of the two samples sets (cells and tissues), the sum of all **min** percentage values cannot exceed 100%. 
+!!! <i class="fa fa-exclamation-circle"></i> **Note:**
+!!! + In each of the two samples sets (cells and tissues), the sum of all **min** percentage values cannot exceed 100%. 
 
-<br>
-
->>>>>> To limit the "influence" of a specific sample in the overall expression constraints, reduce the **max** value to a lower value. <br>
-    To exclude enhancers expressed in one or more samples, set both **min** and **max** to 0 for those samples.<br>
-    To search for enhancers with an exact percentage value in a specific sample set both **min** and **max** to the desired percentage value for that sample. <br>
-    To select the enhancers with 100% percentage of expression in a certain sample, set both **min** and **max** to 100 for that sample.
+!!!! <i class="fa fa-exclamation-circle"></i> **Tips:**
+!!!! + To limit the "influence" of a specific sample in the overall expression constraints, reduce the **max** value to a lower value.
+!!!! + To exclude enhancers expressed in one or more samples, set both **min** and **max** to 0 for those samples.
+!!!! + To search for enhancers with an exact percentage value in a specific sample set both **min** and **max** to the desired percentage value for that sample. <br>
+!!!! + To select the enhancers with 100% percentage of expression in a certain sample, set both **min** and **max** to 100 for that sample.
 
 
 
 The example image below shows the slider corresponding to CAGE enhancer expression in the large intestine. 
 
->>>>> Insert image (see Albin docs)
+!!!     Insert image (see Albin docs)
 
 The percentage range values can be adjusted by:
 
