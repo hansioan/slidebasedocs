@@ -24,7 +24,6 @@ user/plugins/*
 !user/plugins/.*
 user/themes/*
 !user/themes/.*
-!user/themes/learn2/css/custom.css
 user/localhost/config/security.yaml
 
 # OS Generated
