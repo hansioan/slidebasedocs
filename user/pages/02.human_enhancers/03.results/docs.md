@@ -42,10 +42,12 @@ Instead of selecting a single enhancer, a number of analyses options are availab
 
 + **View all** found enhancers in the UCSC Genome Browser: Input UCSC track information such as name, description and color and view the enhancers as a custom track in the [UCSC Genome Browser](http://genome.ucsc.edu).
 
-+ **Get DNA Sequences** for all found enhancers. In addition to the enhancer sequences given by their genomic coordinates, a total of 600 extra nucleotides can be added to the 5' and/or 3' end of each individual sequence.
++ **Get DNA Sequences** for all found enhancers. In addition to the enhancer sequences given by their genomic coordinates, a maximum of 400 extra nucleotides can be added to each the 5' and/or 3' end of each individual enhancer sequence.
 
-+ **Motif Discovery**: Perform basic motif discovery on the resulting enhancer sequences using the [MEME motif discovery tool](http://meme.nbcr.net/meme/). The enhancer sequences can be padded with a total of 600 extra nucleotides at the 5’ and/or 3’ end. The MEME job will be sent via email if the user inputs a valid email address. 
++ **Motif Discovery**: Perform basic motif discovery on the resulting enhancer sequences using the [MEME motif discovery tool](http://meme.nbcr.net/meme/). The enhancer sequences can be padded with a maximum of 400 extra nucleotides on each of the 5' and/or 3' ends. The MEME job will be sent via email if the user inputs a valid email address.
 
-    Note:  The online version of MEME only accepts a maximum of 1,000 sequences which in total must not exceed 60,000 nucleotides.  All sequences must be longer than 8 nucleotides.  In addition the maximum upstream and downstream extensions must not exceed 600 nucleotides.
+    !!! <i class="fa fa-exclamation-circle"></i> **Note:**  
+    !!!
+    !!! The online version of MEME only accepts a maximum of 1,000 sequences which in total must not exceed 60,000 nucleotides.  All sequences must be longer than 8 nucleotides.  In addition the maximum upstream and downstream extensions for the enhancers must not exceed 600 nucleotides.
 
 
