@@ -37,4 +37,74 @@ The percentage range values can be adjusted by:
 
 * **Clicking the arrows** buttons on the ends of the slider bar to increase/decrease the percentage. The **"<"** and **">"** buttons change the percentage with increments of 0.5%. The **"<<"** and **">>"** buttons change the percentage with increments of 5%.
 
+The number of enhancers that satisfy the selected constraint(s) are shown in the left upper corner or in a popup window if you are changing expression constraints lower in the page (see examples below).
+
+
+##### Example 1: 
+** _ Finding enhancers almost exclusively expressed in the large intestine _ **
+
+!!! Slider image ask Albin
+
+We move the lower bound slider ("min") handle to 90%. This means that at least 90% of all CAGE signals must come from the large intestine sample. The pop-up on the left shows that 19 enhancers satisfy this criterion. Clicking “View >>” will show this set of enhancers. 
+
+##### Example 2: 
+
+** _Finding enhancers where around half the signal comes from the large intestine_ **
+
+!!! Slider image ask Albin
+
+Here, both left and right slider handles are moved to 45% and 55%. This means that at least 45% and at most 55% of the signal has to come from this sample, and the rest comes from other samples. This results in 66 enhancers. 
+
+##### Example 3: 
+
+** _Finding enhancers that have no expression signal in the large intestine_ **
+
+!!! Slider image ask Albin
+
+To only select enhancers that have no signal from this sample, we move both slider handles to 0%. This gives as many as 22.266 enhancers, meaning that many enhancers are not present at all in this sample. This type of selection makes the most sense when combining sliders for different samples (see next example)
+
+##### Example 4: 
+
+** _Finding enhancers that are co-expressed in small and large intestine_ **
+
+!!! Slider image ask Albin
+
+Here, we have used two sliders in combination, requiring that 25% of signal has to arise from large AND small intestine at the same time. This results in 35 enhancers. 
+
+##### Example 5: 
+
+** _Finding enhancers that are co-expressed in small and large intestine but not expressed in blood vessels_ **
+
+!!! Slider image ask Albin
+
+In this example, we have added a negative constraint to the last example, by setting the maximal expression in the blood vessel sample to zero. This reduces the number of enhancers to 25. 
+
+
+#### Combining cell and organ expression and the Results panel
+
+The **Results** panel is located in the top left corner of the selector page and contains options for constraining and sorting the results along with the **Number of Hits** found by SlideBase. The number of hits will update in real time as search options are changed. In addition the panel also contains **See Detailed Results >> ** button which will take the user to the [results page](http://slidebase.binf.ku.dk/docs/human_enhancers/results). 
+
+Note that while the above examples have only been using organ expression, it is possible to combine sliders that describe primary cells and organ expression if relevant. Given this, you can choose how to constrain the expression values from the two sample sets by selecting options from dropdown menu labeled **Show Results That Match**, shown in the **Results** panel:
+
++ **Cell AND Organ (Tissue) Constraints:** constraints from **both the cell and tissue** sample sets so that the resulting enhancer set is a combination of cell **AND** tissue constrains (enhancers that follow both the cell AND the tissue constraints will be returned)
+
++ **Cell OR Organ (Tissue) Constraints:** constraints from **either the cell or tissue** sample sets so that the resulting enhancer set is a combination of cell **OR** tissue constrains (enhancers that follow either the cell OR the tissue constraints will be returned)
+
++ **Cell Constrains Only:** only apply the constraints set by the cells expression and ignore tissue expression when searching
+
++ **Organ(Tissue) Constraints Only:** apply the constraints set by the cells expression and ignore tissue expression when searching
+
++ **Ignore Sample Constraints:**  as the name specifies, do not take into account any expression constraints 
+
+In addition to constraining the search to specific samples, there is also the option of sorting the results based on a chosen sample (cell or tissue). This can be done by choosing the desired sample from the dropdown menu **Sort Results By**.  To sort ascending or descending based on the sample expression, select the option from the dropdown menu **Sort Type**.  By default the results are not sorted and this is shown by the option "Do Not Sort" in the **Sort Results By** dropdown menu.
+
+#### Disabling and resetting
+
+The primary cell/tissue percentage values can be disabled by clicking the **Disable** button located in the header of both slider set containers. Disabling the percentage values for either or both cells and tissues implies that their percentage numbers will not be taken into account when searching for enhancers.
+
+!!! <i class="fa fa-exclamation-circle"></i> **Note:**
+!!!
+!!! SlideBase will only constrain on the enabled sample sets. If, for example, only the primary cells sliders are disabled, the value of the **Show Results That Match** dropdown will be **Organ Constraints Only**. If both cells and tissue sliders are disabled the selected dropdown value will be **Ignore Sample Constraints**.   
+
+The percentage values can be reset by clicking on the **Reset** button located in the header of both slider set containers. Resetting the expression percentage values for either or both cells and tissues will trigger the **min** and **max** values for  all primary cells and/or tissue percentage values to become 0% and 100% (all **min** = 0%, all **max** = 100%).
 
