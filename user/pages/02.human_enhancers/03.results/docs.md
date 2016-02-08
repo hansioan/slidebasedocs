@@ -4,9 +4,11 @@ taxonomy:
     category: docs
 ---
 
+### This section describes the [viewer page](http://slidebase.binf.ku.dk/human_enhancers/results) for enhancers. 
+
 Based on the expression and/or genomic location constraints, the number of resulting enhancers will differ. After selecting your search options from the [search page](http://slidebase.binf.ku.dk/docs/human_enhancers/selector) and clicking the **See Detailed Results >>**  (or the smaller **"view"** popup link) link, the user will be directed to the viewer page. 
 
-The viewer page displays detailed information about the resulting enhancers and allows the user to perform actions on the resulting set such as downloading and viewing in genome browsers.  The complete set of enhancer information and actions is displayed below.
+The viewer page displays detailed information about the resulting enhancers and allows the user to perform actions on the resulting set such as downloading and viewing in genome browsers.  The complete set of enhancer information and actions are displayed below.
 
 Your selected enhancers are shown on the list to the left. A maximum number of 50 enhancers are displayed on each page. You can use the **First**, **Prev**, **Next** and **Last** buttons located under the enhancer list and at the bottom of the page to view a different subset. Clicking on an enhancer shows information about that individual enhancer as three different sheets (tabs): **CAGE Details** for expression, **Browse** for genome browser views and **View Overlaps** for basal overlaps and correlations with proximal genomic entities. It is also possible to analyze all selected enhancers (see below). 
 
@@ -25,7 +27,7 @@ This enables the creation of a custom track of your selected enhancers in either
 
 
 ##### View Overlaps
-This shows predicted target promoter(s) of the enhancer, and SNP overlaps.  Enhancer-promoter pairs are predicted based on genomic distance and CAGE co-expression, expressed as Pearson’s correlation tests. An enhancer-promoter prediction is shown when the distance from an enhancer center to a TSS summit is within 500 kbp and the Pearson correlation adjusted P-value (FDR) is < 10-5 (as in [Andersson et al.](http://dx.doi.org/doi:10.1038/nature12787) ). If an enhancer-promoter overlap exists, the TSS can be further inspected by clicking on the promoter annotation and going to Slidebase promoter/TSS selector. 
+This shows predicted target promoter(s) of the enhancer, and SNP overlaps.  Enhancer-promoter pairs are predicted based on genomic distance and CAGE co-expression, expressed as Pearson’s correlation tests. An enhancer-promoter prediction is shown when the distance from an enhancer center to a TSS summit is within 500 kbp and the Pearson correlation adjusted P-value (FDR) is < 10<sup>-5</sup> (as in [Andersson et al.](http://dx.doi.org/doi:10.1038/nature12787) ). If an enhancer-promoter overlap exists, the TSS can be further inspected by clicking on the promoter annotation and going to SlideBase [promoter/TSS results page](http://slidebase.binf.ku.dk/docs/human_promoters/results) for that promoter. 
 
 An enhancer-SNP overlap occurs when the distance from an enhancer center and a SNP location is within 200 bp.  If an enhancer-SNP overlap exists the SNP can be further inspected by clicking on the SNP id.
 
@@ -48,6 +50,6 @@ Instead of selecting a single enhancer, a number of analyses options are availab
 
     !!! <i class="fa fa-exclamation-circle"></i> **Note:**  
     !!!
-    !!! The online version of MEME only accepts a maximum of 1,000 sequences which in total must not exceed 60,000 nucleotides.  All sequences must be longer than 8 nucleotides.  In addition the maximum upstream and downstream extensions for the enhancers must not exceed 600 nucleotides.
+    !!! The online version of MEME only accepts a maximum of 1,000 sequences which in total must not exceed 60,000 nucleotides.  All sequences must be longer than 8 nucleotides.
 
 

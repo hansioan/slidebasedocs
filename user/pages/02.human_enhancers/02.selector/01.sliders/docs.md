@@ -27,7 +27,7 @@ By default, all samples sliders are set to the 0 - 100 range (at least 0% and at
 
 The example image below shows the slider corresponding to CAGE enhancer expression in the large intestine. 
 
-!!!     Insert image (see Albin docs)
+![](/images/enhancers/sliders-ex0.png)
 
 The percentage range values can be adjusted by:
 
@@ -39,43 +39,46 @@ The percentage range values can be adjusted by:
 
 The number of enhancers that satisfy the selected constraint(s) are shown in the left upper corner or in a popup window if you are changing expression constraints lower in the page (see examples below).
 
+#### Examples
+The examples below showcase the enhancers expression selector. The number of enhancers resulting only depends on expression constraints defined by sample percentage values.
 
 ##### Example 1: 
-** _ Finding enhancers almost exclusively expressed in the large intestine _ **
+** Finding enhancers almost exclusively expressed in the large intestine **
 
-!!! Slider image ask Albin
+![](/images/enhancers/sliders-ex1-1.png)
 
-We move the lower bound slider ("min") handle to 90%. This means that at least 90% of all CAGE signals must come from the large intestine sample. The pop-up on the left shows that 19 enhancers satisfy this criterion. Clicking “View >>” will show this set of enhancers. 
+We move the lower bound slider ("min") handle to 90%. This means that at least 90% of all CAGE signals must come from the large intestine sample. The results show that 19 enhancers satisfy this criterion. Clicking “View >>” will show this set of enhancers. 
+![](/images/enhancers/sliders-ex1-2.png)
 
 ##### Example 2: 
 
-** _Finding enhancers where around half the signal comes from the large intestine_ **
+** Finding enhancers where around half the signal comes from the large intestine **
 
-!!! Slider image ask Albin
+![](/images/enhancers/sliders-ex2.png)
 
-Here, both left and right slider handles are moved to 45% and 55%. This means that at least 45% and at most 55% of the signal has to come from this sample, and the rest comes from other samples. This results in 66 enhancers. 
+Here, both left and right slider handles are moved to 45% and 55%. This means that at least 45% and at most 55% of the signal has to come from this sample, and the rest comes from other samples. This results in 62 enhancers. 
 
 ##### Example 3: 
 
-** _Finding enhancers that have no expression signal in the large intestine_ **
+** Finding enhancers that have no expression signal in the large intestine**
 
-!!! Slider image ask Albin
+![](/images/enhancers/sliders-ex3.png)
 
-To only select enhancers that have no signal from this sample, we move both slider handles to 0%. This gives as many as 22.266 enhancers, meaning that many enhancers are not present at all in this sample. This type of selection makes the most sense when combining sliders for different samples (see next example)
+To only select enhancers that have no signal from this sample, we move both slider handles to 0%. This gives as many as 22,266 enhancers, meaning that many enhancers are not present at all in this sample. This type of selection makes the most sense when combining sliders for different samples (see next example)
 
 ##### Example 4: 
 
-** _Finding enhancers that are co-expressed in small and large intestine_ **
+** Finding enhancers that are co-expressed in small and large intestine **
 
-!!! Slider image ask Albin
+![](/images/enhancers/sliders-ex4.png)
 
-Here, we have used two sliders in combination, requiring that 25% of signal has to arise from large AND small intestine at the same time. This results in 35 enhancers. 
+Here, we have used two sliders in combination, requiring that 25% of signal has to arise from large AND small intestine at the same time. This results in 27 enhancers. 
 
 ##### Example 5: 
 
-** _Finding enhancers that are co-expressed in small and large intestine but not expressed in blood vessels_ **
+** Finding enhancers that are co-expressed in small and large intestine but not expressed in blood vessels **
 
-!!! Slider image ask Albin
+![](/images/enhancers/sliders-ex5.png)
 
 In this example, we have added a negative constraint to the last example, by setting the maximal expression in the blood vessel sample to zero. This reduces the number of enhancers to 25. 
 
@@ -97,6 +100,8 @@ Note that while the above examples have only been using organ expression, it is 
 + **Ignore Sample Constraints:**  as the name specifies, do not take into account any expression constraints 
 
 In addition to constraining the search to specific samples, there is also the option of sorting the results based on a chosen sample (cell or tissue). This can be done by choosing the desired sample from the dropdown menu **Sort Results By**.  To sort ascending or descending based on the sample expression, select the option from the dropdown menu **Sort Type**.  By default the results are not sorted and this is shown by the option "Do Not Sort" in the **Sort Results By** dropdown menu.
+
+![](/images/enhancers/sliders-ex1-2.png)
 
 #### Disabling and resetting
 

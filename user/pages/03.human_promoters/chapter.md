@@ -7,4 +7,4 @@ taxonomy:
 
 # FANTOM5 Human Promoters
 
-This is the section on the FANTOM5 human promoters phase1.
+#### This section describes the [SlideBase tool for FANTOM5 human promoters](http://slidebase.binf.ku.dk/human_promoters)

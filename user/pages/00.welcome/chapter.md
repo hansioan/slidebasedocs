@@ -5,3 +5,6 @@ taxonomy:
 ---
 
 # SlideBase docs
+
+### Documentation page for [SlideBase](http://slidebase.binf.ku.dk)
+
