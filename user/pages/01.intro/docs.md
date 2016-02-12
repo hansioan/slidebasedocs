@@ -4,9 +4,12 @@ taxonomy:
 	category: docs
 ---
 
-
+![](/images/slidebase_logo.png)
 
 ### What is SlideBase?
+
+
+
 Large consortia such as [FANTOM](http://fantom.gsc.riken.jp/) ,  [ENCODE](https://www.encodeproject.org/) , [The Human Protein Atlas](http://www.proteinatlas.org/) and [GTEx](http://dx.doi.org/10.1126/science.aaa0355) are producing comprehensive datasets for as a result of measurements of molecular states of cells and tisses on different functional levels. 
 
 These atlases are uselful for understanding biology and diseases and describe expression of a multitude of genomic features such as gene promoters, miRNAs, proteins and enhancer regions.
