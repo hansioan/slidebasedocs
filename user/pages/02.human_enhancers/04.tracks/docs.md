@@ -7,8 +7,8 @@ taxonomy:
 
 
 ### This section describes the predefined [tracks page](http://slidebase.binf.ku.dk/human_enhancers/presets) for enhancers. 
-
-Using statistical methods, we have defined several enhancer tracks used in [Andersson et al.](http://dx.doi.org/doi:10.1038/nature12787) Most track sets are defined in the BED format unless specified otherwise and can be downloaded or viewed in the UCSC Genome Browser. These include:
+ 
+Using statistical methods, we have defined several enhancer tracks used in [Andersson et al.](http://dx.doi.org/doi:10.1038/nature12787) Most track sets are defined in the [BED format ](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) and can be downloaded.  These include:
 
 * **Extensive enhancers (section 1):** 
     - ubiquitous enhancers expressed over the entire set of cell facets; 
@@ -21,8 +21,7 @@ Using statistical methods, we have defined several enhancer tracks used in [Ande
 
 * **Enhancers specifically expressed** in each individual facet from the cell or the tissue (organ) facet sets **(sections 2 and 3)**
 
-!!! <i class="fa fa-exclamation-circle"></i> **Note:**
-!!! The extensive and specifically expressed enhancer sets (sections 1, 2 and 3) can be marked and downloaded or viewed in the UCSC Genome Browser individually or in combination by selecting the desired sets.
+The extensive and specifically expressed enhancer sets (sections 1, 2 and 3) can be marked and downloaded or viewed in the [UCSC Genome Browser](https://genome.ucsc.edu/) individually or in combination by selecting the desired sets. Each predicted enhancer in these sections is described in BED12 format with two blocks denoting the merged regions of transcription initiation on the minus and plus strands. The thickStart and thickEnd columns denote the inferred mid position. The score column gives the maximum pooled expression of TCs used to construct each bidirectional loci.
 
 * **Other enhancer expression tracks (section 4):**
     - Enhancers expressed in all facets (both cell and organ);
