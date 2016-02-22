@@ -21,4 +21,4 @@ There are two sections which describe a probeset-gene result:
 !!! <i class="fa fa-exclamation-circle"></i> **Note:**
 !!! + When viewing information in the BioGPS Gene Report tool remember to select the appropriate probeset. This message is also shown at the top of the "Expression Details" panel in the viewer page.
 
-! Compared to the FANTOM datasets, the BioGPS results page displays less information and offers less options. This is because the emphasis was put on selection of genes rather than viewing information. A great deal of information can be viewed in BioGPS directly, to which we link for each result obtained.
+! Compared to the FANTOM datasets, the BioGPS results page displays less information and offers fewer options. This is because the emphasis was put on selection of genes rather than viewing information. A great deal of information can be viewed in BioGPS directly, to which we link for each result obtained.
