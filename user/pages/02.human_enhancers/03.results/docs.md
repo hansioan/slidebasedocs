@@ -46,7 +46,7 @@ Instead of selecting a single enhancer, a number of analyses options are availab
 
 + **Get DNA Sequences** for all found enhancers. In addition to the enhancer sequences given by their genomic coordinates, a maximum of 400 extra nucleotides can be added to each the 5' and/or 3' end of each individual enhancer sequence.
 
-+ **Motif Discovery**: Perform basic motif discovery on the resulting enhancer sequences using the [MEME motif discovery tool](http://meme.nbcr.net/meme/). The enhancer sequences can be padded with a maximum of 400 extra nucleotides on each of the 5' and/or 3' ends. The MEME job will be sent via email if the user inputs a valid email address.
++ **Motif Discovery**: Perform basic motif discovery on the resulting enhancer sequences using the [MEME motif discovery tool](http://meme-suite.org/). The enhancer sequences can be padded with a maximum of 400 extra nucleotides on each of the 5' and/or 3' ends. The MEME job will be sent via email if the user inputs a valid email address.
 
     !!! <i class="fa fa-exclamation-circle"></i> **Note:**  
     !!!

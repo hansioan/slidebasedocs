@@ -1,7 +1,8 @@
-title: Grav
+title: SlideBase
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
+  name: Hans Ienasescu
+  email: 'slidebase@binf.ku.dk'
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+    description: 'SlideBase Documentation'
+    robots: 'index, follow'
 

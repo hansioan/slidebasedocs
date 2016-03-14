@@ -38,7 +38,7 @@ The percentage range values can be adjusted by:
 
 * **Moving the round blue slider handles** at either edge along the slider bar;
 
-* **Clicking the arrows** buttons on the ends of the slider bar to increase/decrease the percentage. The **"<"** and **">"** buttons change the percentage with increments of 0.5%. The **"<<"** and **">>"** buttons change the percentage with increments of 5%.
+* **Clicking the arrows** buttons to increase/decrease the percentage. The **"<"** and **">"** buttons change the percentage with increments of 0.5%. The **"<<"** and **">>"** buttons change the percentage with increments of 5%.
 
 The number of genes that satisfy the selected constraint(s) are shown in the left upper corner or in a popup window if you are changing expression constraints lower in the page (see examples below).
 

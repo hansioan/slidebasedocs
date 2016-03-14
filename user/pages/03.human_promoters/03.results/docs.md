@@ -53,7 +53,7 @@ Instead of selecting a single promoter, a number of analyses options are availab
 
 + **Get DNA Sequences** for all found promoters. In addition to the promoter sequences given by their genomic coordinates, a maximum of 500 extra nucleotides can be added to each the 5' and 300 nucleotides to the 3' end of each individual promoter sequence.
 
-+ **Motif Discovery**: Perform basic motif discovery on the resulting promoter sequences using the [MEME motif discovery tool](http://meme.nbcr.net/meme/). The promoter sequences can be padded with a maximum of 500 extra nucleotides on the 5' and 300 on the 3' ends. The MEME job will be sent via email if the user inputs a valid email address.
++ **Motif Discovery**: Perform basic motif discovery on the resulting promoter sequences using the [MEME motif discovery tool](http://meme-suite.org/). The promoter sequences can be padded with a maximum of 500 extra nucleotides on the 5' and 300 on the 3' ends. The MEME job will be sent via email if the user inputs a valid email address.
 
     !!! <i class="fa fa-exclamation-circle"></i> **Note:**  
     !!!
