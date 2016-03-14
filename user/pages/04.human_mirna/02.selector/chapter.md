@@ -1,5 +1,5 @@
 ---
-title: Promoter selector
+title: miRNA selector
 taxonomy:
     category: docs
 ---
