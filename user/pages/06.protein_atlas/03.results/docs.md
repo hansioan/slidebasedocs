@@ -16,8 +16,8 @@ There are three sections which describe a gene result:
 
 - **Gene Annotation**: describes the Ensembl and RefSeq gene ids along with the gene name and a link to The Human Protein Atlas gene report. The same link is also displayed at the top of the panel for emphasis.
 
-- **RNA expression** levels for the gene pair measured in all RNA samples.
+- **RNA expression** levels for the gene measured in all RNA samples.
 
-- **Protein abundance** levels for the gene pair measured in all protein samples.
+- **Protein abundance** levels for the gene measured in all protein samples.
 
 ! Compared to the FANTOM datasets, the protein atlas results page displays less information and offers fewer options. This is because the emphasis was put on selection of genes rather than viewing information. A great deal of information can be viewed in The Human Protein Atlas directly, to which we link for each result obtained.

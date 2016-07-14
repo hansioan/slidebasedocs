@@ -27,7 +27,7 @@ By default, all samples sliders are set to the 0 - 100 range (at least 0% and at
 
 The example image below shows the slider corresponding to microarray gene expression in the liver. 
 
-![](/images/biogps/sliders-ex0.png)
+![](/images/gtex/sliders-ex0.png)
 
 The percentage range values can be adjusted by:
 
@@ -40,52 +40,51 @@ The percentage range values can be adjusted by:
 The number of genes that satisfy the selected constraint(s) are shown in the left upper corner or in a popup window if you are changing expression constraints lower in the page (see examples below).
 
 #### Examples
-The examples below showcase the BioGPS gene expression selector. The number of genes resulting only depends on expression constraints defined by sample percentage values.
+The examples below showcase the GTEx gene expression selector. The number of genes resulting only depends on expression constraints defined by sample percentage values.
 
 ##### Example 1: 
 **  Finding genes mostly expressed in the liver **
 
-![](/images/biogps/sliders-ex1-1.png)
+![](/images/gtex/sliders-ex1-1.png)
 
-We move the lower bound slider ("min") handle to 80%. This means that at least 80% of the expression must come from the liver sample. The results show that 35 genes satisfy this criterion. Clicking “View >>” will show this set of genes.
+We move the lower bound slider ("min") handle to 80%. This means that at least 80% of the expression must come from the liver sample. The results show that 238 genes satisfy this criterion. Clicking “View >>” will show this set of genes.
 
-![](/images/biogps/sliders-ex1-2.png)
+![](/images/gtex/sliders-ex1-2.png)
 
 ##### Example 2: 
 
 ** Finding genes where around half the signal comes from the liver**
 
-![](/images/biogps/sliders-ex2.png)
+![](/images/gtex/sliders-ex2.png)
 
-Here, both left and right slider handles are moved to 45% and 55%. This means that at least 45% and at most 55% of the signal has to come from this sample, and the rest comes from other samples. This results in 38 genes. 
+Here, both left and right slider handles are moved to 45% and 55%. This means that at least 45% and at most 55% of the signal has to come from this sample, and the rest comes from other samples. This results in 67 genes. 
 
 ##### Example 3: 
 
-** Finding genes that have almost no expression signal in the liver **
-!!! <i class="fa fa-exclamation-circle"></i> **Note:**
-!!! The expression values for the BioGPS U133 Gene Atlas are all strictly larger than zero and because of this, if we set both the "min" and "max" percentage values to 0 we would not get any results. Thus, we can set "min"  to 0% and "max" to a value small enough but not zero, which in this case will be 0.10%
+** Finding genes that have no expression signal in the liver **
 
-![](/images/biogps/sliders-ex-3_v1.png)
 
-To only select genes that have almost no signal from this sample, we move the min (left) slider handle to 0% and the max (right) slider handle to 0.10%. This results in 824 genes.
+![](/images/gtex/sliders-ex3_v2.png)
+
+To only select genes that have no signal from this sample, we move both slider handles to 0%. This results in 16546 genes.
 
 ##### Example 4: 
 
-** Finding genes that are co-expressed in liver and fetal liver**
+** Finding genes that are co-expressed in cerebellum and the cerebellar hemisphere**
 
-![](/images/biogps/sliders-ex4.png)
+![](/images/gtex/sliders-ex4.png)
 
-Here, we have used two sliders in combination, requiring that 25% of signal has to arise from liver AND fetal liver at the same time. This results in 23 genes. 
+Here, we have used two sliders in combination, requiring that 45% of signal has to arise from the cerebellum AND 45% from the cerebellar hemisphere at the same time. This results in 81 genes. 
 
 #### Results panel
 
-The **Results** panel is located in the top left corner of the selector page and contains options for constraining and sorting the results along with the **Number of Hits** found by SlideBase. The number of hits will update in real time as search options are changed. In addition the panel also contains **See Detailed Results >> ** button which will take the user to the [results page](http://slidebase.binf.ku.dk/docs/biogps_atlas/results). 
+The **Results** panel is located in the top left corner of the selector page and contains options for constraining and sorting the results along with the **Number of Hits** found by SlideBase. The number of hits will update in real time as search options are changed. In addition the panel also contains **See Detailed Results >> ** button which will take the user to the [results page](http://slidebase.binf.ku.dk/docs/gtex/results). 
 
 Based on the expression values we may choose to constrain the results or not. This can be done by selecting one of the two options from the **Show Results That Match** dropdown.
 
 In addition to expression constraining, there is also the option of sorting the results based on a chosen sample. This can be done by choosing the desired sample from the dropdown menu **Sort Results By**.  To sort ascending or descending based on the sample expression, select the option from the dropdown menu **Sort Type**.  By default the results are not sorted and this is shown by the option "Do Not Sort" in the **Sort Results By** dropdown menu.
 
-![](/images/biogps/sliders-ex1-2.png)
+![](/images/gtex/sliders-ex1-2.png)
 
 #### Disabling and resetting
 
