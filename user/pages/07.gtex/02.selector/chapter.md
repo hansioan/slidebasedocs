@@ -7,4 +7,4 @@ taxonomy:
 
 # Defining sliders and searching 
 
-### This section describes the [selector page](http://slidebase.binf.ku.dk/biogps_atlas/selector) for GTEx dataset genes. 
+### This section describes the [selector page](http://slidebase.binf.ku.dk/gtex/selector) for GTEx dataset genes. 
