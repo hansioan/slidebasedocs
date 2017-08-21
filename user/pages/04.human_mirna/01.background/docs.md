@@ -12,4 +12,4 @@ These  were  mapped  to  known miRNAs  from  [miRBase](http://www.mirbase.org/),
 !!! If you use this expression data, you should cite:   
 !!! - paper coming soon
 
-[View Google Docs](https://docs.google.com/document/d/1K16PTABsViYJUBLQDdx7HIeqoLlRLrZKyZmziFYWNwg/edit?usp=sharing)
+The miRNAs used in SlideBase are a subset of the total miRNA described in [add miRNA data]. The raw expression counts file is [human.fantom.expression.counts.txt]. The locations of the miRNAs are taken from the [human.fantom.candidates.gff.txt] file, excluding the premiRNA locations.  
