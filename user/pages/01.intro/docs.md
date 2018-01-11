@@ -18,5 +18,10 @@ Even so, it can be difficult to navigate such complex data sets if the user is n
 
 ** To this extent we present [SlideBase](http://slidebase.binf.ku.dk)( http://slidebase.binf.ku.dk ), a tool for selection of expressed features from a given dataset by user-customized expression thresholds through the use of interacting sliders.**
 
+### Citing SlideBase
+If you want to acknowledge SlideBase in your research please cite:
+
+Ienasescu, H., et al. (2016). On-the-fly selection of cell-specific enhancers, genes, miRNAs and proteins across the human body using SlideBase, Database 2016, doi: [10.1093/database/baw144](https://doi.org/10.1093/database/baw144)
+
 
 
